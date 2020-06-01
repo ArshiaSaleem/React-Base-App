@@ -42,4 +42,4 @@ jobs:
     
     #Deploy Surge
     - name: React deployment to surge
-      run: surge ./ http://assignment2_bootcamp2020_reactapp_byarshia.surge.sh/ --token ${{secrets.SECRET_SURGE}}
+      run: surge ./ historical-whip.surge.sh/ --token ${{secrets.SECRET_SURGE}}
