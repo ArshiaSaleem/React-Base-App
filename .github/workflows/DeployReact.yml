@@ -42,4 +42,4 @@ jobs:
     
     #Deploy Surge
     - name: React deployment to surge
-      run: surge ./ historical-whip.surge.sh/ --token ${{secrets.SECRET_SURGE}}
+      run: surge ./build historical-whip.surge.sh/ --token ${{secrets.SECRET_SURGE}}
